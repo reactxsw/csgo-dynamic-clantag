@@ -1,5 +1,5 @@
 # csgo-dynamic-clantag
-![sample](https://user-images.githubusercontent.com/70201574/117566201-79a53d80-b0df-11eb-806c-8bb233133a0d.gif)
+![sample](https://user-images.githubusercontent.com/70201574/117566247-b3764400-b0df-11eb-83f4-9f8cfee66e1c.gif)
 
 ## How to use
 
