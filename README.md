@@ -8,12 +8,13 @@
 
 2. Put the first group steam group id and the next steam group until the program finish.
 
-3. The program will output a file called config.cfg
+3. The program will output a file called clantag.cfg
 
 4. Put config.cfg in the foler name cfg which locate in your csgo folder
 
-5. open console and type "exec config"
+5. open console and type "exec clantag"
 
+< you must be in the group where you have provide the steam group id >
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
