@@ -1,6 +1,5 @@
 # csgo-dynamic-clantag
-![show](https://user-images.githubusercontent.com/70201574/117565956-3e563f00-b0de-11eb-9598-aeccbd89c01a.gif)
-
+![sample](https://user-images.githubusercontent.com/70201574/117566201-79a53d80-b0df-11eb-806c-8bb233133a0d.gif)
 
 ## How to use
 
@@ -13,6 +12,8 @@
 4. Put config.cfg in the foler name cfg which locate in your csgo folder
 
 5. open console and type "exec clantag"
+
+![show](https://user-images.githubusercontent.com/70201574/117565956-3e563f00-b0de-11eb-9598-aeccbd89c01a.gif)
 
 < you must be in the group where you have provide the steam group id >
 
