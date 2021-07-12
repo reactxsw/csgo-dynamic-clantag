@@ -8,7 +8,7 @@ using namespace std;
 
 /*
 	เขียน C++ ไม่เป็น โปรเกรมนี้เเย่มากอย่าทําตาม 
-	*/
+*/
 
 int main() {
 	int x , n , u , z;
@@ -32,9 +32,8 @@ int main() {
 
 	for (int i = 0; i != x; ++i) {
 		u = i + 1;
-		config << "alias clanwdnm" << u << "\"cl_clanid " << array[i] <<";alias clanwdnm clanwdnm"<< u + 1 << "\""  << endl;
-        
-    }
+		config << "alias clanwdnm" << u << "\"cl_clanid " << array[i] <<";alias clanwdnm clanwdnm"<< u + 1 << "\""  << endl;}
+    cout << u;
 
     /*
 		เขียนไฟล์ config ท่อนล่าง
@@ -42,14 +41,11 @@ int main() {
 	
     for (int z = x - 1; z != -1; --z) {
     	++u;
-		config << "alias clanwdnm" << u << "\"cl_clanid " << array[z] <<";alias clanwdnm clanwdnm"<< u + 1 << "\""  << endl;
-
-    }
+		config << "alias clanwdnm" << u << "\"cl_clanid " << array[z] <<";alias clanwdnm clanwdnm"<< u + 1 << "\""  << endl;}
 
     /*
     		เขียนไฟล์ config ปิดท้าย
 		*/
-
     config << "alias clanwdnm" << u << "\"cl_clanid " << array[0] <<";alias clanwdnm clanwdnm1"<<"\""  << endl;
     config << "bind w " << "\"+forward;clanwdnm\""  << endl;
 	config << "bind a " << "\"+moveleft;clanwdnm\""  << endl;
@@ -60,6 +56,4 @@ int main() {
     cout << flush;
     cout << endl;
     cout << "Done";
-	return 0;
-    
-}
+	return 0;}
